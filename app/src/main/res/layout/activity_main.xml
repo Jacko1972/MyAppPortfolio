@@ -27,7 +27,8 @@
         android:layout_below="@+id/lbl_my_nanodegree_apps"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
-        android:width="220dp"/>
+        android:width="220dp"
+        android:background="@color/colorAccent"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -37,7 +38,8 @@
         android:layout_marginTop="8dp"
         android:width="220dp"
         android:layout_below="@+id/popular_movies"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -47,7 +49,8 @@
         android:layout_marginTop="8dp"
         android:width="220dp"
         android:layout_below="@+id/stock_hawk"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -57,7 +60,8 @@
         android:layout_marginTop="8dp"
         android:width="220dp"
         android:layout_below="@+id/build_it_bigger"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -67,7 +71,8 @@
         android:layout_marginTop="8dp"
         android:width="220dp"
         android:layout_below="@+id/make_your_app_material"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -77,5 +82,6 @@
         android:layout_marginTop="8dp"
         android:width="220dp"
         android:layout_below="@+id/go_ubiquitous"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent"/>
 </RelativeLayout>
