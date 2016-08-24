@@ -23,42 +23,41 @@ public class MainActivity extends AppCompatActivity {
         popular_movies.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "This button will launch my Popular Movies app!", Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, "This button will launch my Popular Movies app!", Toast.LENGTH_SHORT).show();
             }
         });
 
         stock_hawk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "This button will launch my Stock Hawk app!", Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, "This button will launch my Stock Hawk app!", Toast.LENGTH_SHORT).show();
             }
         });
 
         build_it_bigger.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "This button will launch my Build It Bigger app!", Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, "This button will launch my Build It Bigger app!", Toast.LENGTH_SHORT).show();
             }
         });
 
         make_your_app_material.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "This button will launch my Make Your App Material app!", Toast.LENGTH_LONG).show();
+            public void onClick(View view) { Toast.makeText(MainActivity.this, "This button will launch my Make Your App Material app!", Toast.LENGTH_SHORT).show();
             }
         });
 
         go_ubiquitous.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "This button will launch my Go Ubiquitous app!", Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, "This button will launch my Go Ubiquitous app!", Toast.LENGTH_SHORT).show();
             }
         });
 
         capstone.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "This button will launch my Capstone app!", Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, "This button will launch my Capstone app!", Toast.LENGTH_SHORT).show();
             }
         });
     }
